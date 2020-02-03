@@ -15,6 +15,7 @@ The goal is to create a Messenger bot in Node.js. The app should:
     and the bot should accept both user text answer („yes", „yeah", „yup”, "no”, "nah", etc.)
     and quick reply buttons. To make it simpler, you can assume there's only one valid
     date format: YYYY-MM-DD
+
 3. If user says yes to the last question, send him a message: There are <N> days left until
  your next birthday
 
