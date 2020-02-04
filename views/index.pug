@@ -11,33 +11,13 @@ block content
                 span.online_icon
               div.user_info
                 span Chat with Messenger
-          div(class="card-body msg_card_body")
-            div(class="d-flex justify-content-start mb-4")
-              div(class="img_cont_msg")
-                img(src="/images/messenger-facebook-messenger-icon-clipart.png" alt="Messenger" class="rounded-circle user_img_msg")
-              div.msg_cotainer
-                | Hi, how are you Alex?
-            div(class="d-flex justify-content-end mb-4")
-              div.msg_cotainer_send
-                | Hi Eric, i am good tnx how about you?
-              div.img_cont_msg
-                img(src="/images/software-crystal-msn-icon.png" alt="You" class="rounded-circle user_img_msg")
-            div(class="d-flex justify-content-start mb-4")
-              div.img_cont_msg
-                img(src="/images/messenger-facebook-messenger-icon-clipart.png" alt="Messenger" class="rounded-circle user_img_msg")
-              div.msg_cotainer
-                | I am good too, thank you for your chat template
-            div(class="d-flex justify-content-end mb-4")
-              div.msg_cotainer_send
-                | You are welcome
-              div.img_cont_msg
-                img(src="/images/software-crystal-msn-icon.png" alt="You" class="rounded-circle user_img_msg")
+          div#messages(class="card-body msg_card_body")
           div.card-footer
             div.input-group
               div.input-group-append
                 span(class="input-group-text attach_btn")
                   i(class="fas fa-paperclip")
-              textarea(name="" class="form-control type_msg" placeholder="Type your message...")
-              div.input-group-append
+              input(id="message" name="message" type='text' class="form-control type_msg" placeholder="Type your message...")
+              div.input-group-append(id="sendButton")
                 span(class="input-group-text send_btn")
                   i(class="fas fa-location-arrow")
