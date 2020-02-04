@@ -29,13 +29,13 @@ The goal is to create a Messenger bot in Node.js. The app should:
  Don't worry about the persistence layer. Feel free to keep all messages in the runtime
  memory, although using a database of your choice is a big plus.
 
-## techniques
+## Techniques
 - Express JS (Api REST)
 - Babel(ES6 support)
 
 ## Scripts
 
-Here is the list of all scripts inside, you have to go to **oberline** folder to execute them.
+Here is the list of all scripts inside, you have to go to **borderline** folder to execute them.
 - Installation
   - >npm install
 - Run to start application
